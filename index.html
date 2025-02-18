@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="images/icon.png">
         <title>A Página de Internet do Vi</title>
+        <link rel="icon" href="images/icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--Olá, meu nome é Vinicius, e esta pagina é um portifólio mais pessoal, ao qual estou criando vários objetivos
         que eu tenho que descobrir a forma de concluilos. É puro aprendizado de uma forma que gosto de estudar. Ideias,
         que as vezes não faço ideia se tem formas de executalas, pois acabei ouvindo ou lendo em algum lugar que isso
@@ -11,21 +13,26 @@
     <body>
         <!--Header contém informações sobre mim e minhas redes sociais-->
         <header>
-            <img src="images/myPhoto.png">
+            
+            <div class="bio">
+            <img src="images/myPhoto.png" class="center">
             <h1>Vinicius Amaral Fink</h1>
-                <p>Nível: 30</p>
-                <p>Nasceu em: 04/12/1994</p>
-                <p>bla bla bla, adicionar mais info no futuro</p>
+                <p>Nível:<br>30</p>
+                <p>Primeiro Login:<br>04/12/1994</p>
+                <p>Tempo de jogo:<br>'adicionar horario'</p>
+            </div>
+
             <!--Aprender como fazer o quadro de Redes Socias ficar ao lado do quadro de Sobre mim se tiver
             espaço disponivel no navegador-->    
+            <div class="social">
             <h1>Redes Socias</h1>
-                <ul>
-                    <li><a target="_blank" href="https://github.com/Demotchk">Github</a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/demotchk/">Instagram</a></li>
-                    <li><a target="_blank" href="https://x.com/Demotchk">Xwitter</a></li>
-                    <li><a target="_blank" href="https://steamcommunity.com/id/demotchk/">Steam</a></li>
-                    <li><a target="_blank" href="https://retroachievements.org/user/Demotchk">Retro Achievements</a></li>
-                </ul>
+                    <a target="_blank" href="https://github.com/Demotchk"><img src="images/github icon.png"></a>
+                    <a target="_blank" href="https://www.instagram.com/demotchk/"><img src="images/instagram icon.png"></a>
+                    <a target="_blank" href="https://x.com/Demotchk"><img src="images/xwitter icon.png"></a>
+                    <a target="_blank" href="https://steamcommunity.com/id/demotchk/"><img src="images/steam icon.png"></a>
+                    <a target="_blank" href="https://retroachievements.org/user/Demotchk"><img src="images/retroachievements icon.png"></a>
+            </div>
+            
         </header>
         <!--Main-->
         <main>
@@ -72,7 +79,7 @@
                 cargos-->
         </main>
         <footer>
-            <p>Este site foi criado durante todo meu periodo de aprendizado desde o zero sobre HTML. :D &copy; Demotchk</p>
+            <p>Este site está em criação durante todo o meu periodo de aprendizado desde o zero sobre HTML, CSS, e JavaScript. :D<br>&copy; Demotchk</p>
             <p><a target="_blank" href="https://taptapkaboom.com">Tap Tap Kaboom</a> foi o meu primeiro professor nesta jornada.</p>    
         </footer>
     </body>
