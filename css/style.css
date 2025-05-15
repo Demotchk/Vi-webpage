@@ -42,6 +42,11 @@ body{
     margin: 0px;
     background: url(../images/background.jpg) repeat;
     color: rgb(236, 236, 166);
+
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
@@ -111,8 +116,8 @@ header h2{
     border: 3px solid rgb(166, 236, 36);
 }
 
-footer{
-    margin: 0;
+footer{  
+    margin-top: auto;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15%;
