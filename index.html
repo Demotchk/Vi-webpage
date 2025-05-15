@@ -5,6 +5,7 @@
         <title>A Página do Vi</title>
         <link rel="icon" href="images/icon.png">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
 
         <!---->
 
@@ -13,236 +14,52 @@
     <body>
 
         <!--Header contém informações sobre mim e minhas redes sociais-->
-        <header>
+        <header class="center">
 
-            <div class="InfoLinks">
-                
-                <div class="MyInfo">
+               <div class="box">
 
-                    <div class="MyInfoIMG">
-
-                        <img src="images/myPhoto.png">
-
+                    <div class="imgbox">
+                        <img src="images/myPhoto.png" style=" border: 3px solid rgb(166, 236, 36); max-width: 90%;">
                     </div>
+                    
+                    <div class="infobox">
 
-                    <div class="MyInfoData">
-
-                        <h1>Vinicius Amaral Fink</h1>
-                        <p>Nível:<br>30</p>
-                        <p>Primeiro Login:<br>04/12/1994</p>
-                        <p>Tempo de jogo:<br>262980 horas</p>
+                        <h5>Vinicius Amaral Fink</h5>
+                        <p>Nível:<br>30
+                            <br>---------------
+                        <br>Primeiro Login:<br>04/12/1994
+                            <br>---------------
+                        <br>Tempo de jogo:<br>262980 horas</p>
                         
                     </div>
 
                 </div>
 
-                    <div class="separador"></div>
-
-                <div class="MyLinks">
+                <div class="separador"></div>
 
                     <h2>Redes Sociais</h2>
 
-                        <div class="LinkBar">
+                <div class="boxlink">
 
-                            <a class="MylinksA" target="_blank" href="https://github.com/Demotchk"><img class="MylinksIMG" src="images/github icon.png"></a>
-                            <a class="MylinksA" target="_blank" href="https://www.instagram.com/demotchk/"><img class="MylinksIMG" src="images/instagram icon.png"></a>
-                            <a class="MylinksA" target="_blank" href="https://x.com/Demotchk"><img class="MylinksIMG" src="images/xwitter icon.png"></a>
-                            <a class="MylinksA" target="_blank" href="https://steamcommunity.com/id/demotchk/"><img class="MylinksIMG" src="images/steam icon.png"></a>
-                            <a class="MylinksA" target="_blank" href="https://retroachievements.org/user/Demotchk"><img class="MylinksIMG" src="images/retroachievements icon.png"></a>
-                        </div>
+                        <div class="link"><a class="MylinksA" target="_blank" href="https://github.com/Demotchk"><img class="MylinksIMG" src="images/github icon.png"></a></div>
+                        <div class="link"><a class="MylinksA" target="_blank" href="https://www.instagram.com/demotchk/"><img class="MylinksIMG" src="images/instagram icon.png"></a></div>
+                        <div class="link"><a class="MylinksA" target="_blank" href="https://x.com/Demotchk"><img class="MylinksIMG" src="images/xwitter icon.png"></a></div>
+                        <div class="link"><a class="MylinksA" target="_blank" href="https://steamcommunity.com/id/demotchk/"><img class="MylinksIMG" src="images/steam icon.png"></a></div>
+                        <div class="link"><a class="MylinksA" target="_blank" href="https://retroachievements.org/user/Demotchk"><img class="MylinksIMG" src="images/retroachievements icon.png"></a></div>
 
                 </div>
-
-            </div>
 
         </header>
 
         <!--Main-->
-        <main>
-
-            <div class="specialPadding">
-
-                <h2>Meu Blog Pessoal</h2>
-
-                    <!--Aqui vou colocar informações recentes para minha pagina, a idéia é aprender como criar 
-                    varios posts para ter um pagina com registro de todas as noticias da minha pagina pessoal,
-                    logo no quadro de avisos só mostrar a primeira e segunda e terceira noticia mais recente.
-                    O restos das noticias sera acessado pelo link a baixo dentro do quadro de avisos-->
-
-
-                    <div class="separadorBlog"></div>
-                    
-                        <h3>
-                            Meu Primeiro Post, <br><div class="dataBlog">13/03/2025 10:24 BR</div>   
-                        </h3>
-
-                    <div class="separadorBlog"></div>
-                        
-                        <p class="pBlog">
-
-                            Olá, meu nome é Vinicius, e esta pagina é um portifólio mais pessoal, ao qual estou criando vários objetivos
-                            que eu tenho que descobrir a forma de concluir. É puro aprendizado de uma forma que gosto de estudar. Ideias,
-                            que as vezes não faço ideia se tem formas de executar, pois acabei ouvindo ou lendo em algum lugar que isso
-                            é possivel. Mas quero o desafio de tentar. hehehe
-
-                        </p>
-                    
-                                <img class="imgBlog center" src="images/VifromHollowKnight.png">
-                                
-                                <div class="imgFooterBlog center">
-                                    <h6>Me no mundo de Hollow Knight, criado no PicCrew by 
-                                    <a target="_blank" href="https://picrew.me/en/image_maker/143336">Timefixers</a>.
-                                    </h6>
-                                </div>  
-
-                        </p>
-
-                        <div class="separadorBlog"></div>
-                            <div class="byeFooterBlog"><h6>Se eu tiver alguma considerção final escreveria aqui, peidei.</h6></div>
-                        <div class="separadorBlog"></div>
-
-            </div>
-
-                        <!--A idéia aqui em baixo é criar uma pagina separada que vai ser um blog com posts 
-                        enfileirados, então tenho que aprender uma forma de puxar os posts mais recentes e
-                        exibir os titulos deles a baixo-->
-
-                        <div class="maisPosts">
-
-                                <h3>Posts recentes:</h3>
-
-                            <ul>
-                                <Li>Como fazer um Purê de Batata do Caos 
-                                    <br><div class="dataMP">??/??/?? ??:??</div></Li>
-                                <Li>O dia que eu joguei videogame no cinema 
-                                    <br><div class="dataMP">??/??/?? ??:??</div></Li>
-                                <Li>Acabou a idéia de titulo, mas esse é um titulo 
-                                    <br><div class="dataMP">??/??/?? ??:??</div></Li>
-                            </ul>
-                                <a class="maisPosts right" target="_blank" href="">Portal pro meu Blog</a>
-
-                        </div>
-
-                    <div class="specialPadding">
-                    <div class="separador"></div>
-                    </div>
-
-
-
-                <!--Jogando na Steam, e Jogando no Emulador são duas janelas que quero aprender como deixar
-                elas lado a lado-->   
-
-            <div class="sRTitleBox">
-
-                <div class="steamTitle">
-                    <h2>Steam</h2>
-                </div>
-                
-                <div class="separadorVertical"></div>
-
-                <div class="retroAchTitle">
-                    <h3>Retro<br>Achievements</h3>
-                </div>
-
-            </div>
-            
-                <div class="conquistas">
-
-                <div class="steam">
-
-                    <p>
-                        Aqui quero aprender como puxar informações da Steam da lista de jogos jogados recente,
-                        ver a possibilidade de puxar info de ultimos troféus adquiridos e etc.
-                    </p>
-
-                </div>
-
-                <div class="separadorVertical"></div>
-
-                <div class="retroAch">
-
-                <p>
-                    Aqui vou puxar informações do Retroachievements pela lista de jogos jogados recente,
-                    puxar o nome do Jogo, de qual console, e as conquitas adquiridas.
-                </p>
-
-                </div>
-            
-            </div>
-
-            <div class="specialPadding">
-                    <div class="separador"></div>
-
-                <div class="headerSC">
-                <h2>Skins do Minecraft</h2>
-                </div>
-
-                    <!-- 
-                    Aqui quero aprender como fazer um mural interativo mostrando todas as minha skins do minecraft,
-                    qm sabe aprender uma forma de exibilas em 3d? Um mural que você clica na foto da skin e ela exibe no
-                    quadro principal a skin em 3d animada.
-                    -->
-                
-                <div class="skinChest">    
-                <div class="selected">
-                </div>
-
-                <div class="allSkins">
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                    <div class="skin"></div>
-                </div>
-
-            </div>
-
-                <div class="description center">
-
-                </div>
-                
-
-            
-
-                    <div class="separador"></div>
-            
-
-                <p>
-                <h2>Mural das Waifus</h2>
-                    
-                    <!--Aqui vai ser um mural de pura zoeira mostrando minhas paixões do mundo dos animes e minha esposa,
-                    tenho que planejar uma forma de apresentalas estilo quadros de Empregado do mês, ou aquele mural do
-                    GTA Online dentro das Sedes dos Motoclubes em que mostra a foto dos personagens em seus respectivos
-                    cargos.-->
-
-                    <div class="waifutop center"></div>
-                    <div class="waifuswardrobe center">
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                        <div class="waifu"></div>
-                    </div>
-
-                </p>
-
-            </div>
-
-        </main>
+        <main></main>
 
         <footer>
 
         <div class="center">    
             <h4>
-            <p>Este site está em criação durante todo o meu periodo de aprendizado desde o zero sobre HTML, CSS, e JavaScript. :D<br>&copy; Demotchk</p>
-            <p><a target="_blank" href="https://taptapkaboom.com">Tap Tap Kaboom</a> foi meu primeiro professor nesta jornada.</p>    
+            <p>Este site está em criação durante todo o meu periodo de aprendizado desde o zero sobre HTML, CSS, e JavaScript. :D<br><br>&copy; Demotchk
+            <br><br><a target="_blank" href="https://taptapkaboom.com">Tap Tap Kaboom</a> foi meu primeiro professor nesta jornada.</p>    
             </h4>
         </div>
 

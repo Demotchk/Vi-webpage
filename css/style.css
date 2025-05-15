@@ -29,357 +29,106 @@
 }
 
 .center {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
-.right {
-    display: block;
-    margin-right: auto;
-    width: 100%;
-}
-.left {
-    display: block;
-    margin-left: auto;
-    width: 100%;
-}
+
       
 /*------------*/
 /* Body Style */
 /*------------*/
 
 body{
-
-    background: url(../images/background.jpg) repeat;
-    font-family: "Silkscreen";
-    color: rgb(236, 236, 166);
     margin: 0px;
+    background: url(../images/background.jpg) repeat;
+    color: rgb(236, 236, 166);
 }
 
-/**/
-/**/
-/**/
+img{
+    max-width: 100%;
+}
+
+p{
+    font-family: "silkscreen";
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Press Start 2P";
+    margin: 0;
+}
+
+/*--------------*/
+/* Experimentos */
+/*--------------*/
+/* black rgb(16, 16, 16); */
+/* green  rgb(166,236,36); */
+/* yellow rgb(236, 236, 166); */
+
+header{
+    margin: 10vh;
+    background-color: rgb(16, 16, 16);
+    border: 6px solid rgb(166, 236, 36);
+    padding: 10px;
+    max-width: 600px; min-width: 520px;
+}
+
+.box{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.imgbox{
+    max-width: 40%;
+}
+
+.infobox{
+    max-height: 60%;
+    line-height: 20px;
+}
 
 .separador{
-    border-top: 3px dashed rgb(166,236,36);
-    width: 100%;
-    margin: 20px auto;
-}
-.separadorVertical{
-    border-right: 3px dashed rgb(166,236,36);
-    margin: 0px;
+    margin: 10px;
+    max-width: 100%;
+    border-top: 3px dashed rgb(166, 236, 36);
 }
 
-.separadorBlog{
-    border-top: 3px dashed rgb(236, 236, 166);
-    width: 100%;
-    margin: 20px auto;
-}
-
-h1, h2{
-    font-family: "Press Start 2P";
-    color: rgb(166,236,36);
-}
-
-
-/*a{
-    text-decoration: none;
-    background-color: rgb(166,236,36);
-    font-family: "Press Start 2P";
-    color: rgb(16, 16, 16);
-    border: 2px solid rgb(166,236,36);
-    padding: 3px;
-}
-
-a:hover{
-    background-color: rgb(16, 16, 16);
-    color: rgb(166,236,36);
-    border-color: rgb(166,236,36);
-
-}
-
-/**/
-/**/
-/**/
-
-Header{
-    max-width: 670px;
-    min-width: 590px;
-    margin: 60px auto 30px;
-    background-color: rgb(16, 16, 16);
-    border: 5px solid rgb(166,236,36);
-    padding: 20px;
-}
-
-/******************************/
-/* Area da minha info e links */
-/******************************/
-
-/**********************/
-/* Parte de cima Info */
-/**********************/
-
-.MyInfo{
-    display: flex;
-}
-.MyInfoIMG{
-    width: 210px;
-    height: 210px;
-    margin-right: 25px;
-}
-.MyInfoIMG IMG{
-    width: 200px;
-    height: 200px;
-    border: 5px solid rgb(166,236,36);
-}
-.MyInfoData h1{
-    font-size: 100%;
-}
-
-/************************/
-/* Parte de baixo Links */
-/************************/
-
-.MyLinks h2{
-    text-align: center;
-}
-.LinkBar{
-    margin: auto;
-    width: 590px;
-}
-.MylinksA{
-    text-decoration: none;
-    text-align: center;
-}
-.MylinksIMG{
-    border: 5px solid rgb(166,236,36);
-}
-
-
-/**/
-/**/
-/**/
-
-main{
-    max-width: 710px;
-    min-width: 630px;
-    margin: auto;
-    background-color: rgb(16, 16, 16);
-    border: 5px solid rgb(166,236,36);
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.specialPadding{
-    width: 710;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-/**/
-/**/
-/**/
-
-.dataBlog{
-    text-align: right;
-    color: rgb(166,236,36);
-}
-.pBlog{
-    text-indent: 5%;
-}
-.imgBlog{
-    width: 90%;
-    margin-bottom: 0px;
-    border-top: 20px solid rgb(253, 253, 253);
-    border-left: 20px solid rgb(253, 253, 253);
-    border-right: 20px solid rgb(253, 253, 253);
-}
-.imgFooterBlog{
-    width: 90%;
-    margin-top: 0px;
-    border-top: 10px solid rgb(253, 253, 253);
-    border-bottom: 10px solid rgb(253, 253, 253);
-    border-left: 20px solid rgb(253, 253, 253);
-    border-right: 20px solid rgb(253, 253, 253);
-    background-color: rgb(253, 253, 253);
-    color: rgb(16, 16, 16);
-    text-align: center; 
-}
-.imgFooterBlog a{
-    background-color: rgb(16, 16, 16);
-    border: 3px solid rgb(16, 16, 16);
-    color: rgb(253, 253, 253);
-    padding: 3px;
-    text-decoration: none;
-    font-family: "Press Start 2P";
-}
-.imgFooterBlog a:hover{
-    background-color: rgb(253, 253, 253);
-    border: 3px solid rgb(16, 16, 16);
-    color: rgb(16, 16, 16);
-}
-.byeFooterBlog{
-    text-align: right;
-}
-.maisPosts{
-    background-color: rgb(166,236,36);
-    color: rgb(16, 16, 16);
-}
-.maisPosts h3{
-    margin: 0px;
-}
-.maisPosts ul{
-    background-color: rgb(16, 16, 16);
-    color: rgb(166,236,36);
-    margin: 3px 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.maisPosts a{
-    text-decoration: none;
-    text-align: right;
-}
-
-/**/
-/**/
-/**/
-
-.sRTitleBox{
-    display: flex;
-    position: relative;
-    height: 90x;
-    background-color: rgb(166,236,36);
-}
-.sRTitleBox .separadorVertical{
-    border-color: rgb(16, 16, 16);
-}
-.steamTitle, .retroAchTitle{
-    width: 50%;
-}
-.steamTitle h2, .retroAchTitle h3{
-    color: rgb(16, 16, 16);
-    margin-left: 10px;
-}
-
-.conquistas{
-    display: flex;
-    position: relative;
-    height: 300x;
-    border-bottom: 5px solid rgb(166,236,36);
-}
-.steam, .retroAch{
-    width: 50%;
+header h2{
     padding: 10px;
-}
-.steam p, .retroAch p{
-    margin: 0px;
+    text-align: center;
 }
 
-/**/
-/**/
-/**/
-
-.skinChest{
-    display: flex;
-    width: 590px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.selected{
-    border: 3px solid rgb(166,236,36);
-    width: 125px;
-    height: 250px;
-    margin-right: 10px;
-}
-.allSkins{
-    display: flex;
-    flex-wrap: wrap;
-    width: 465px;
-    height: 250px;
-    margin-left: 0px;
-    padding-top: 5px;
-}
-    .skin{
-        border: 3px solid rgb(166,236,36);
-        width: 103px;
-        height: 103px;
-        margin: 3px 0px 0px 3px;
-    }
-.description{
-    border: 3px solid rgb(166,236,36);
-    width: 585px;
-    height: 180px;
-    margin-top: 20px;
+.boxlink{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/**/
-/**/
-/**/
-
-.waifutop{
-    width: 300px;
-    height: 300px;
-    margin-top: 20px;
-    border: 5px solid rgb(166,236,36);
+.link{
+    margin: 5px;
+    border: 3px solid rgb(166, 236, 36);
 }
-.waifuswardrobe{
-    display: flex;
-    flex-wrap: wrap;
-    width: 590px;
-    height: 590px;
-    margin-top: 20px;
-}
-.waifu{
-    width: 175px;
-    height: 175px;
-    margin: 7.5px;
-    border: 3px solid rgb(166,236,36);
-}
-
-
-/*<div class="waifutop"></div>
-<div class="waifuswardrobe">
-    <div class="waifu1"></div>
-    <div class="waifu2"></div>
-    <div class="waifu3"></div>
-    <div class="waifu4"></div>
-    <div class="waifu5"></div>
-    <div class="waifu6"></div>
-    <div class="waifu7"></div>
-    <div class="waifu8"></div>
-    <div class="waifu9"></div>
-</div>*/
-
-/**/
-/**/
-/**/
 
 footer{
-    min-width: 640px;
-    background-color: rgb(166,236,36);
-    margin: 0px;
-    margin-top: 120px;
-    padding: 20px;
-    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(166, 236, 36);
+    line-height: 25px;
 }
+
 footer p{
-    max-width: 640px;
-    padding: 0px;
-    font-family: "Press Start 2P";
+    text-align: center;
     color: rgb(16, 16, 16);
-    font-size: 10px;
-    line-height: 15px;
 }
+
 footer a{
     text-decoration: none;
+    border: 5px solid rgb(16, 16, 16);
+    color: rgb(166, 236, 36);
     background-color: rgb(16, 16, 16);
-    color: rgb(166,236,36);
-    padding: 3px;
-    border: 3px solid rgb(16, 16, 16);
-}
-footer a:hover{
-    background-color: rgb(166,236,36);
-    color: rgb(16, 16, 16);
-    border-color: rgb(16, 16, 16);
 }
